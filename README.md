@@ -15,6 +15,7 @@
 ## Descrição
 
 - Visto que na descrição do desafio contém a explicação para cada seção e a proposta é ter flexibilidade na estilização, esse é meu projeto.
+- Escolhi a cor azul como cor principal, pois levando em consideração a psicologia das cores, o azul é a cor da harmonia, inteligência e confiança/credibilidade.
 - Aproveitando a flexibilidade na estilização, criei uma logo fictícia para a empresa Pesquisa Ativa Negócios afim de melhorar a UI e o projeto ficar mais completo.
 - [Link da Aplicação](https://iu360-test-by-vandilson.vercel.app/)
 
