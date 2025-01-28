@@ -1,50 +1,76 @@
-# React + TypeScript + Vite
+# **IU360 - Teste Técnico**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## Índice
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Descrição](#descrição)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Instalação](#instalação)
+- [Executando a Aplicação](#executando-a-aplicação)
+- [Contato](#contato)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Descrição
 
-- Configure the top-level `parserOptions` property like this:
+- Visto que na descrição do desafio contém a explicação para cada seção e a proposta é ter flexibilidade na estilização, esse é meu projeto.
+- Aproveitando a flexibilidade na estilização, criei uma logo fictícia para a empresa Pesquisa Ativa Negócios afim de melhorar a UI e o projeto ficar mais completo.
+- [Link da Aplicação](https://iu360-test-by-vandilson.vercel.app/)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Imagens da Aplicação
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+<img width="1436" alt="Screenshot 2025-01-28 at 00 39 29" src="https://github.com/user-attachments/assets/a35e2eb9-3dcb-4bc4-afa3-f9e748446de9" />
+<img width="585" alt="Screenshot 2025-01-28 at 00 41 01" src="https://github.com/user-attachments/assets/3edc632a-6a7a-4ecc-b913-36684befd125" />
+<img width="373" alt="Screenshot 2025-01-28 at 00 40 01" src="https://github.com/user-attachments/assets/e96628b5-927d-407e-82ee-353a65ca0d5a" />
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+
+## Tecnologias Utilizadas
+
+- **Vite**: Ferrmaenta de Build moderna projetada para oferecer uma experiência de desenvolvimento rápida e eficiente.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário reutilizáveis e interativas.
+- **TypeScript**: Superset do JavaScript que oferece segurança de tipos e recursos avançados do ECMAScript.
+- **Tailwind CSS**: Framework CSS de classes utilitárias que facilita a criação, estilização e responsividade de interfaces de usuário.
+- **React-Scroll**: Biblioteca leve que melhora a funcionalidade de rolagem em aplicativos React.
+
+## Instalação
+
+### **Pré-requisitos**
+Certifique-se de que você tenha instalado:
+- `node` e `npm`
+
+### **Passos**
+
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/vandilsonbrito/iu360-test.git
+    ```
+
+2. **Navegue para o repositório:**:
+
+   ```bash
+   cd iu360-test
+   ```
+
+3. **Instale as dependências:**:
+
+     ```bash
+     npm install
+     ```
+    
+## Executando a Aplicação
+
+1. Inicie o servidor React
+   ```bash
+   npm run dev
+   ```
+3. Acesse o frontend no navegador em: http://localhost:5173
+
+---
+
+## Contato
+- Made with ❤️ by Vadilson Brito
+- LinkedIn: [Vandilson](https://www.linkedin.com/in/vandilson-brito-desenvolvedor-frontend/)
+- Portfólio: [Link](https://vandilson-portfolio.vercel.app)
