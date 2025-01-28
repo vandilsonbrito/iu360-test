@@ -2,7 +2,7 @@
 export default function Footer() {
   return (
     <footer className="w-full bg-gray-800 text-white py-8">
-      <div className=" mx-auto px-4 xl:px-12">
+      <div className="container mx-auto px-4 xl:px-12">
         <div className="flex flex-wrap justify-between">
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
             <h3 className="text-xl font-bold mb-4">Pesquisa Ativa Negócios</h3>
